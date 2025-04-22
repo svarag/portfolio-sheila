@@ -1,4 +1,4 @@
-const text = "¡Hola! Soy Sheila 👋";
+const text = "¡Hola! Soy Sheila";
 let i = 0;
 
 function typeWriter() {
