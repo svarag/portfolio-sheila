@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio de Sheila Vara, desarrolladora web en formación">
+  <title>Sheila Vara | Portfolio</title>
+  <link rel="icon" href="sheila.jpg" type="image/jpeg">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#sobre-mi">Sobre mí</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="inicio" class="intro">
+      <img src="Foto-Sheila.jpg" alt="Foto de Sheila Vara" class="profile-pic" width="150">
+      <h1>¡Hola! Soy <span class="highlight">Sheila</span></h1>
+      <p>Transformando mi experiencia en gestión y administración en soluciones web innovadoras. 🚀</p>
+      <a href="#contacto" class="btn-primary">Hablemos</a>
+    </section>
+
+    <section id="sobre-mi">
+      <h2>Sobre mí</h2>
+      <p>Con más de 5 años aprendiendo y trabajando en procesos administrativos, he decidido dar el salto al sector tech. Actualmente estoy estudiando un certificado de profesionalidad de confección y publicación de páginas web con HTML, CSS y JavaScript desde cero.</p>
+    </section>
+
+    <section id="habilidades">
+      <h2>Habilidades Técnicas</h2>
+      <ul>
+        <li>✅ HTML &amp; CSS (en proceso)</li>
+        <li>✅ JavaScript (en proceso)</li>
+        <li>📊 Excel y Google Sheets</li>
+        <li>🔧 SAP, Sage 50, Contaplus, Contasol</li>
+      </ul>
+    </section>
+
+    <section id="proyectos">
+      <h2>Proyectos</h2>
+      <div class="projects">
+        <div class="project-card">
+          <h3>Mini Portfolio en HTML</h3>
+          <p>Mi primer proyecto real: una web responsive con HTML y CSS que muestra mi camino de aprendizaje en desarrollo web.</p>
+        </div>
+        <div class="project-card">
+          <h3>(Próximamente)</h3>
+          <p>Más proyectos vendrán muy pronto, a medida que avance en JavaScript y maquetación avanzada.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacto">
+      <h2>Contacto</h2>
+      <p>¿Tienes una propuesta para mí? ¡Conversemos!</p>
+
+      <!-- FORMULARIO FUNCIONAL CON FORMSPREE -->
+      <form action="https://formspree.io/f/myzwyery" method="POST">
+        <fieldset>
+          <legend>Tu información</legend>
+          <label for="email">Tu correo:</label>
+          <input type="email" id="email" name="email" required>
+
+          <label for="message">Tu mensaje:</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+        </fieldset>
+        <button type="submit" class="btn-primary">Enviar</button>
+      </form>
+
+      <p>Conecta conmigo en <a href="https://www.linkedin.com/in/sheila-vara-gonz%C3%A1lez-b86269133" target="_blank" rel="noopener">LinkedIn</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Sheila Vara González. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
