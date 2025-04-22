@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Portfolio de Sheila Vara, desarrolladora web en formación">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio de Sheila Vara, desarrolladora web en formación" />
   <title>Sheila Vara | Portfolio</title>
-  <link rel="icon" href="sheila.jpg" type="image/jpeg">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="images/Foto-Sheila.jpg" type="image/jpeg" />
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <header>
@@ -23,28 +23,29 @@
 
   <main>
     <section id="inicio" class="intro">
-      <img src="Foto-Sheila.jpg" alt="Foto de Sheila Vara" class="profile-pic" width="150">
-      <h1>¡Hola! Soy <span class="highlight">Sheila</span></h1>
-      <p>Vengo del ámbito administrativo y actualmente me estoy formando como desarrolladora web. <br/>
-        Estoy aprendiendo HTML, CSS y JavaScript desde cero, y he creado esta web como parte de ese proceso. <br/>
-        Este es mi primer paso real en el mundo tech.</p>
+      <img src="images/Foto-Sheila.jpg" alt="Foto de Sheila Vara" class="profile-pic" width="150" />
+      <h1 id="typing-text"></h1>
+      <p class="intro-description">
+        Vengo del ámbito administrativo y actualmente me estoy formando como desarrolladora web.<br />
+        Estoy aprendiendo HTML, CSS y JavaScript desde cero, y he creado esta web como parte de ese proceso.<br />
+        Este es mi primer paso real en el mundo tech.
+      </p>
       <a href="#contacto" class="btn-primary">Hablemos</a>
     </section>
 
     <section id="sobre-mi">
       <h2>Sobre mí</h2>
-      <p>He trabajado varios años en tareas administrativas, lo que me ha dado experiencia organizando procesos, gestionando herramientas digitales y resolviendo problemas en equipo.
-
-        Aunque no vengo del mundo de la tecnología, desde hace un tiempo decidí cambiar de rumbo profesional. Actualmente estoy cursando un certificado de profesionalidad en desarrollo web, donde estoy aprendiendo desde cero a crear páginas con HTML, CSS y JavaScript.
-        
-        Me interesa empezar con proyectos reales, seguir aprendiendo, y poco a poco abrirme camino en este sector. </p>
+      <p>
+        He trabajado varios años en tareas administrativas, lo que me ha dado experiencia organizando procesos, gestionando herramientas digitales y resolviendo problemas en equipo.
+        Aunque no vengo del mundo tech, decidí dar un giro a mi carrera. Actualmente estoy cursando un certificado en desarrollo web, aprendiendo desde cero HTML, CSS y JavaScript.
+      </p>
     </section>
 
     <section id="habilidades">
       <h2>Habilidades Técnicas</h2>
       <ul>
-        <li>✅ HTML &amp; CSS (en proceso)</li>
-        <li>✅ JavaScript (en proceso)</li>
+        <li>✅ HTML & CSS (en progreso)</li>
+        <li>✅ JavaScript (iniciando)</li>
         <li>📊 Excel y Google Sheets</li>
         <li>🔧 SAP, Sage 50, Contaplus, Contasol</li>
       </ul>
@@ -54,33 +55,28 @@
       <h2>Proyectos</h2>
       <div class="projects">
         <div class="project-card">
-          <h3>Mini Portfolio en HTML</h3>
-          <p>Mi primer proyecto real: una web responsive con HTML y CSS que muestra mi camino de aprendizaje en desarrollo web.</p>
+          <h3>Mini Portfolio</h3>
+          <p>Web personal responsive con HTML y CSS, conectada a un formulario funcional con Formspree.</p>
         </div>
         <div class="project-card">
           <h3>(Próximamente)</h3>
-          <p>Más proyectos vendrán muy pronto, a medida que avance en JavaScript y maquetación avanzada.</p>
+          <p>Más proyectos en camino mientras avanzo con JavaScript y desarrollo frontend.</p>
         </div>
       </div>
     </section>
 
     <section id="contacto">
       <h2>Contacto</h2>
-      <p>¿Tienes una propuesta para mí? ¡Conversemos!</p>
-
-      <!-- FORMULARIO FUNCIONAL CON FORMSPREE -->
       <form action="https://formspree.io/f/myzwyery" method="POST">
         <fieldset>
           <legend>Tu información</legend>
           <label for="email">Tu correo:</label>
-          <input type="email" id="email" name="email" required>
-
+          <input type="email" id="email" name="email" required />
           <label for="message">Tu mensaje:</label>
           <textarea id="message" name="message" rows="4" required></textarea>
         </fieldset>
         <button type="submit" class="btn-primary">Enviar</button>
       </form>
-
       <p>Conecta conmigo en <a href="https://www.linkedin.com/in/sheila-vara-gonz%C3%A1lez-b86269133" target="_blank" rel="noopener">LinkedIn</a></p>
     </section>
   </main>
@@ -88,5 +84,7 @@
   <footer>
     <p>&copy; 2025 Sheila Vara González. Todos los derechos reservados.</p>
   </footer>
+
+  <script src="js/script.js"></script>
 </body>
 </html>
