@@ -201,4 +201,13 @@
   line-height: 1.6;
   text-align: center;
 }
-  
+@keyframes fall {
+  0% {
+    transform: translateY(-50px);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(100vh);
+    opacity: 0;
+  }
+}  
